@@ -26,41 +26,23 @@ public class Homework5 {
 
 // 2 task
 //String month = "" which can have any of the following values: JAN, FEB, MAR, APRIL, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
-        String month = "FEB";
+        String month = "JAN";
         switch (month){
             case "JAN":
-                System.out.println("JAN");
-                break;
             case "FEB":
                 System.out.println("FEB");
             case "MAR":
                 System.out.println("MAR");
-                break;
             case "APRIL":
-                System.out.println("APRIL");
-                break;
             case "MAY":
-                System.out.println("MAY");
-                break;
             case "JUN":
-                System.out.println("JUN");
-                break;
             case "JUL":
-                System.out.println("JUL");
-                break;
             case "AUG":
-                System.out.println("AUG");
-                break;
             case "SEP":
-                System.out.println("SEP");
-                break;
             case "OCT":
-                System.out.println("OCT");
             case "NOV":
                 System.out.println("NOV");
-                break;
             case "DEC":
-                System.out.println("DEC");
             default:
                 System.out.println("APRIL");
         }
