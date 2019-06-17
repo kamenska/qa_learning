@@ -4,7 +4,7 @@ public class Flow {
 
     public static void main(String[] args) {
 
-//decision-making statements
+
       int score = 0;
       String name = "Lionss";
       String result = "nothing";
@@ -14,7 +14,7 @@ public class Flow {
       Random r = new Random();
       int num = r.nextInt();
 
-
+//decision-making statements
         if (num > 0) {
             System.out.println("The number is positive " + num);
         }
@@ -27,7 +27,7 @@ public class Flow {
             System.out.println("Score is --> " + score);
         }
 
-//?????????
+//ternary operator
         result = name == "Lionss" ? (xy = "YES") : (xy = "NO");
         System.out.println("Name is Lionss? " + xy);
 
