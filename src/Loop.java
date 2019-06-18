@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class Loop {
 
 	public static void main(String[] args) {
@@ -61,7 +59,7 @@ public class Loop {
 				continue;
 			}
 			numPs++;
-			System.out.println(numPs);
+			System.out.println("numPs = " +numPs);
 		}
 
 	}
