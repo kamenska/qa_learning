@@ -6,22 +6,32 @@ public class Homework8_3 {
 
 	public static void main(String[] args) {
 
+int m = 5; // size of pyramid
 
+		for(int line = 0; line <= m; line++) {
+//build spaces
+			for(int element = m; element >= 0; element--) {
+				if(element - line > 0) System.out.print(" ");
+			}
+//build pyramid
+			for(int element = line; element >=0; element--) System.out.print("* ");
 
-//	public static int builPyramide(int rows) {
-
-		int l, p = 0, e;
-		int evenS, middle;
+		System.out.println();
+		}
 
 // build the snow
-		for(l=0; l <= 9; l++) {  //line
-			for (e = 0; e < 9; e++){ // element in line
-				if (l%2==0 ) {				System.out.printf(" %s", "*");}
-				else {				System.out.printf("%s ", "*");}
-			}
+//			for(int element = 1; element <= m; element++){
+//				if(line % 2 == 0) {
+//					System.out.printf(" %s", "*");
+//				}  // for even line
+//				else {
+//					System.out.printf("%s ", "*");
+//				}            // for odd line
 
-			evenS = ((18 - l) % 2);
-			middle = 9;
+//			evenS = ((18 - column) % 2);
+//			middle = 9;
+
+
 
 
 //			for(p = 0; p < 9; p++) {  //elements
@@ -33,8 +43,8 @@ public class Homework8_3 {
 //					System.out.printf(" %s", "s");
 //					}
 //				}
-			System.out.println();
-			}
+//			System.out.println();
+//			}
 //		return p;
 
 //	System.out.println(builPyramide(9));
