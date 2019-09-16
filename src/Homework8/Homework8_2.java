@@ -1,5 +1,6 @@
 package Homework8;
 
+// но в условии было сказано о трех for
 public class Homework8_2 {
 
 	public static void main(String[] args) {

@@ -6,7 +6,7 @@ public class Homework8_3 {
 
 	public static void main(String[] args) {
 
-int m = 5; // size of pyramid
+int m = 8; // size of pyramid
 
 		for(int line = 0; line <= m; line++) {
 //build spaces
