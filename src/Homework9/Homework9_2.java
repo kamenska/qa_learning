@@ -8,20 +8,21 @@ public class Homework9_2 {
 	The program calculates the average length of lines and displays on the screen.
 	 */
 	public static void main(String[] arr) {
-		Scanner input = new Scanner(System.in);
+		Scanner input1 = new Scanner(System.in);
+		Scanner input2 = new Scanner(System.in);
 
-		System.out.print("Enter the number of lines: ");
-		int lines = input.nextInt();
+		System.out.println("Enter the number of lines: ");
+		int lines = input1.nextInt();
 		int lineLengthAll = 0;
 
-		for(int i = 0; i <= lines; i=i+1) {
-			System.out.print("Enter any word for this line: ");
-			String word = input.nextLine();
+		for(int i = 1; i <= lines; i=i+1) {
+			System.out.println("Enter any word for this line: ");
+			String word = input2.nextLine();
 			int lineLength = word.length();
 			lineLengthAll = lineLength + lineLengthAll;
 		}
-
-		System.out.println("You entered: " + lineLengthAll/lines + "symbols in average");
+		double aver = (double)lineLengthAll/(double)lines;
+		System.out.println("You entered: " + aver + " symbols in average");
 	}
 
 }

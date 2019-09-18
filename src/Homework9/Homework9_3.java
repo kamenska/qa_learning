@@ -20,7 +20,7 @@ then make a general demo class to show the results of the tasks)
 		int sum = a+b;
 		int sub = a-b;
 		int mult = a*b;
-		double div = (double)(a/b);
+		double div = (double)a/(double) b;
 
 		System.out.println("a + b = " + sum);
 		System.out.println("a - b = " + sub);
