@@ -10,7 +10,8 @@ public class Access_modifiers {
     private static int countOfObjects;  //class variable - any fields declared with the 'static' modifier
     private String operationType; // instance variable is unique for each instance of a class - in "non-static fields", always "private"
 
-/* default modifier: class is visible inside the class, inside the package class Access_modifiers {}  */
+/* default modifier: class is visible inside the class, inside the package */
+ class Access_modifiers1 {}
 
 /* protected modifier: variable is visible inside the class, inside the package, in subclass */
     protected String prVar;

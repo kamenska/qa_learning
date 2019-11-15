@@ -1,4 +1,4 @@
-package main.java.Homework8;
+package main.java.HOMEWORKS.Homework8;
 
 public class Homework8_1 {
 

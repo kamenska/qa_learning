@@ -1,4 +1,4 @@
-package main.java;
+package main.java.HOMEWORKS;
 
 import java.util.Random;
 

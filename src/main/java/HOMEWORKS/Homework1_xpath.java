@@ -1,6 +1,6 @@
-package main.java;
+package main.java.HOMEWORKS;
 
-public class Homework1 {
+public class Homework1_xpath {
 
 
 /*

@@ -1,4 +1,4 @@
-package main.java.Homework7;
+package main.java.HOMEWORKS.Homework7;
 import java.util.Arrays;
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package main.java.Homework8;
+package main.java.HOMEWORKS.Homework8;
 
 // но в условии было сказано о трех for
 public class Homework8_2 {

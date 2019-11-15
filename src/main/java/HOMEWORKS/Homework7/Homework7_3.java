@@ -1,4 +1,4 @@
-package main.java.Homework7;
+package main.java.HOMEWORKS.Homework7;
 
 public class Homework7_3 {
 
